@@ -1,0 +1,49 @@
+<nav class="navbar navbar-default navbar-fixed white bootsnav on no-full menu-center navbar-transparent no-border" {% if page.id %} style="background-color:#214759;" {% endif %}>
+    <div class="container">
+
+      <!--== Start Header Navigation ==-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> 
+          <i class="tr-icon ion-android-menu"></i> 
+        </button>
+        <div class="logo"> 
+          <a href="index"> 
+            <img class="logo logo-display" src="assets/images/sustain-hor.svg" alt=""> 
+            <img class="logo logo-scrolled" src="assets/images/sustain-hor.svg" alt=""> 
+          </a> 
+        </div>
+      </div>
+      <!--== End Header Navigation ==-->
+
+      <!--== Collect the nav links, forms, and other content for toggling ==-->
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
+          <li><a class="page-scroll" href="/index" {% if page.id %} style="color:#ffffff;" {% endif %}>Home</a></li>
+          <li><a class="page-scroll" href="/about" {% if page.id %} style="color:#ffffff;" {% endif %}>About</a></li>
+          <li><a class="page-scroll" href="/events" {% if page.id %} style="color:#ffffff;" {% endif %}>Events</a></li>
+          <li><a class="page-scroll" href="https://discourse.sustainoss.org/" {% if page.id %} style="color:#ffffff;" {% endif %}>Forum</a></li>
+        </ul>
+      </div>
+      <!--== /.navbar-collapse ==-->
+    </div>
+
+    <!-- Start Side Menu -->
+    <div class="side default-bg">
+        <a href="index.html" class="logo-side"><img src="assets/images/sustain-hor.svg" alt="side-logo"/></a>
+            <a href="index#" class="close-side"><i class="icofont icofont-close"></i></a>
+            <div class="widget mt-120">
+              <ul class="link">
+                <li><a class="page-scroll" href="/index">Home</a></li>
+                <li><a class="page-scroll" href="/about">About</a></li>
+                <li><a class="page-scroll" href="/events">Events</a></li>
+                <li><a class="page-scroll" href="https://discourse.sustainoss.org/">Forum</a></li>
+              </ul>
+            </div>
+            <ul class="social-media">
+              <li><a href="#" class="icofont icofont-social-facebook"></a></li>
+              <li><a href="#" class="icofont icofont-social-twitter"></a></li>
+              <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+            </ul>
+     </div>
+     <!-- End Side Menu -->
+  </nav>

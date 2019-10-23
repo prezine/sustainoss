@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{{ page.title }}</title>
+<link rel="shortcut icon" href="assets/images/favicon.png">
+
+<!-- Core Style Sheets -->
+<link rel="stylesheet" href="assets/css/master.css">
+<!-- Responsive Style Sheets -->
+<link rel="stylesheet" href="assets/css/responsive.css">
+<!-- Revolution Style Sheets -->
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+
+</head>
+<body>
+<style type="text/css">
+	a, a:hover {
+		color: #F5325C;
+	}
+</style>
+<!--== Loader Start ==-->
+<div id="loader-overlay">
+  <div class="loader">
+    <img src="assets/images/loader.svg" width="80" alt="">
+  </div>
+</div>
+<!--== Loader End ==-->
+
+{%- include header.html -%}
+
+<!--== Wrapper Start ==-->
+<div class="wrapper">
+
+  {{ content }}
+
+</div>
+<!--== Wrapper End ==-->
+
+{%- include footer.html -%}
+
+<!--== Javascript Plugins ==-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJNGOwO2hJpJ9kz8e0UUPjZhEbgDJTTXE"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/master.js"></script>
+
+<!-- Revolution js Files -->
+<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="revolution/js/revolution.extension.actions.min.js"></script>
+<script src="revolution/js/revolution.extension.carousel.min.js"></script>
+<script src="revolution/js/revolution.extension.kenburn.min.js"></script>
+<script src="revolution/js/revolution.extension.layeranimation.min.js"></script>
+<script src="revolution/js/revolution.extension.migration.min.js"></script>
+<script src="revolution/js/revolution.extension.navigation.min.js"></script>
+<script src="revolution/js/revolution.extension.parallax.min.js"></script>
+<script src="revolution/js/revolution.extension.slideanims.min.js"></script>
+<script src="revolution/js/revolution.extension.video.min.js"></script>
+<!--== Javascript Plugins End ==-->
+
+</body>
+</html>
